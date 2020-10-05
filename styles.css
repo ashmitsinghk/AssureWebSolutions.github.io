@@ -6,6 +6,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+img {
+  pointer-events: none;
+}
+
 .navbar {
   display: flex;
   width: 90%;
@@ -35,6 +39,7 @@ body {
   box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.5);
   color: black;
   transition: all 0.3s ease;
+  border: none;
 }
 
 .nav-link:hover {
@@ -170,16 +175,15 @@ h1 {
 
 .col {
   text-align: justify;
-  transition: all 0.3s ease;
   padding: 20px;
   margin: 50px 15px;
   border-radius: 15px;
-  box-shadow: 1px 3px 5px grey;
+  transition: all 0.3s ease;
+  box-shadow: 8px 8px 18px rgba(128, 128, 128, 0.55),-8px -8px 18px #ffffff;
 }
 
 .col:hover {
-  background-color: #6C63FF;
-  color: aliceblue;
+  transform: scale(1.1);
 }
 
 .features {
@@ -202,6 +206,10 @@ h1 {
   color: aliceblue;
   text-align: center;
   transition: 0.6s ease transform, 0.3s ease box-shadow, 0.3s ease background-color;
+}
+
+.deal {
+  height: 180px;
 }
 
 .deal ul {
@@ -344,6 +352,28 @@ td:last-child {
   color: aliceblue;
 }
 
+.toes {
+  width: 100%;
+  background-color: #5f58e4;
+  margin: 0 0;
+  color: aliceblue;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.foot-links li {
+  list-style: none;
+}
+
+.foot-links {
+  color: aliceblue;
+}
+
+.foot-links:hover {
+  color: aliceblue;
+}
+
+
 @media screen and (max-width: 1000px) {
   .holder {
     flex-direction: column-reverse;
@@ -377,7 +407,7 @@ td:last-child {
   }
   .links {
     position: absolute;
-    right: 0px;
+    right: -25px;
     height: 85vh;
     top: 60px;
     margin-top: 2.5px;
@@ -408,11 +438,33 @@ td:last-child {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    width: 85%;
+  }
+  .col {
+    width: 100%;
+  }
+  .footer .container .row {
+    flex-direction: column-reverse;
+  }
+  .footer .container .row ul {
+    float: left;
+    padding: 0;
+  }
+  .col-sm-4 {
+    margin: 10px;
+    border-bottom: 1px solid #4036ff;
+    padding: 10px;
+  }
+  .intro-text {
+    margin-left: 20%;
+  }
+  .intro-text h1 {
+    font-size: 2rem;
   }
 }
 
 .nav-active {
-  transform: translateX(0%);
+  transform: translateX(-12%);
 }
 
 @keyframes navLinkFade {
