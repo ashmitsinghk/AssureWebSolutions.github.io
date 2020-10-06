@@ -323,6 +323,11 @@ h1 {
   margin-bottom: 35px;
 }
 
+.quotecard h3 {
+  font-family: Josefin Sans;
+  margin: 0 0;
+}
+
 .quotestart {
   font-size: 50px;
   position: absolute;
