@@ -425,6 +425,42 @@ td:last-child {
   margin-bottom: 35px;
 }
 
+.whitecard {
+  box-shadow: 8px 8px 18px rgba(128, 128, 128, 0.55), -8px -8px 18px #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.whitecard a {
+  color: #6C63FF;
+}
+
+.small {
+  font-size: 18px;
+}
+
+label {
+  font-family: Josefin Sans;
+}
+
+input {
+  border-radius: 10px;
+  height: 30px;
+  width: 80%;
+  border: none;
+  padding: 20px;
+  box-shadow: 8px 8px 18px rgba(128, 128, 128, 0.55), -8px -8px 18px #ffffff;
+}
+
+textarea {
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  padding: 20px;
+  box-shadow: 8px 8px 18px rgba(128, 128, 128, 0.55), -8px -8px 18px #ffffff;
+}
+
 .toes {
   width: 100%;
   background-color: #5f58e4;
