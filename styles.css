@@ -170,7 +170,7 @@ h1 {
 }
 
 .row {
-  margin: 5px 0;
+  margin: 15px 0;
 }
 
 .col {
@@ -304,16 +304,43 @@ h1 {
   color: rgb(92, 92, 92);
 }
 
-.tablehead {
+.head {
   margin-bottom: 20px;
   font-weight: bold;
+  text-align: center;
+}
+
+.quotecard {
+  height: auto;
+  width: max-content;
+  background-color: #ffffff;
+  box-shadow: 8px 8px 18px rgba(128, 128, 128, 0.55), -8px -8px 18px #ffffff;
+  border-radius: 20px;
+  padding: 35px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}
+
+.quotestart {
+  font-size: 50px;
+  position: absolute;
+  left: -15px;
+  top: -25px;
+}
+
+.quoteend {
+  font-size: 50px;
+  position: absolute;
+  right: -15px;
+  bottom: -25px;
 }
 
 table {
   border-collapse: separate;
   border-spacing: 0 10px;
   margin-top: -10px;
-  /* correct offset on first border spacing if desired */
   margin-bottom: 50px;
   border-radius: 20px;
 }
@@ -389,7 +416,7 @@ td:last-child {
   z-index: 5;
 }
 
-.container h4 {
+.container h6 {
   margin-bottom: 35px;
 }
 
@@ -506,6 +533,9 @@ td:last-child {
   }
   .intro-text h1 {
     font-size: 2rem;
+  }
+  .quotecard {
+    width: 80%;
   }
 }
 
