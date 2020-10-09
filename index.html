@@ -22,7 +22,7 @@
     <link href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <link rel="stylesheet" type="text/css" href="./all.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -81,36 +81,15 @@
     <div class="slider"></div>
     <!-- Preloader Animation End -->
 
-    <!-- Landing Section -->
-    <div class="container-fluid full lander">
-        <!-- Flex Row -->
-        <div class="holder">
-            <!-- Left Side -->
-            <div class="fifty">
-                <h1>
-                    Welcome to Assurè Web Solutions
-                </h1>
-                <p class="desc">
-                    One destination for all your Website needs.
-                </p>
-                <!-- Buttons -->
-                <a href="#pricing">
-                    <button class="button">
-                        Get Started
-                    </button>
-                </a>
-                <a href="#about">
-                    <button class="buttoninv">
-                        Learn More
-                    </button>
-                </a>
-            </div>
-            <!-- Right Side -->
-            <div class="fifty">
-                <img class="svg" src="./static/svg/coding.svg" />
-            </div>
-        </div>
-    </div>
+    <header>
+        <img src="./static/img/headimg.jpg">
+        <section class='header-text'>
+            <h1 class="headerhead">Assurè Web Solutions</h1>
+            <h2>One destination for all your website needs.</h2>
+            <a href="#pricing"><button class="button">Get Started</button></a>
+            <a href="#about"><button class="buttoninv">Learn More</button></a>
+        </section>
+    </header>
 
     <!-- Internal Linking -->
     <a name="about"></a>
@@ -119,11 +98,11 @@
         <!-- Flex Row -->
         <div class="holder pagelink">
             <!-- Left Side -->
-            <div class="forty">
+            <div class="forty" data-aos="fade-up">
                 <img class="svg" src="./static/svg/question.svg" />
             </div>
             <!-- Right Side -->
-            <div class="sixty">
+            <div class="sixty" data-aos="fade-down">
                 <h1>
                     What is Assurè Web Solutions?
                 </h1>
@@ -149,18 +128,18 @@
         </h2>
         <div class="row">
             <!-- Cards -->
-            <div class="col">
+            <div class="col" data-aos="flip-left">
                 <h3>
                     <img class="svg features" src="./static/svg/fast.svg" /> <br>
                     Fast
                 </h3>
                 <p>
-                    We aren't like the others, we deliver you our services on time. Punctuality is one of our core
+                    We deliver you our services on time. Punctuality is one of our core
                     values
                     in the company.
                 </p>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-right">
                 <h3>
                     <img class="svg features" src="./static/svg/cheap.svg" /> <br>
                     Inexpensive
@@ -172,7 +151,7 @@
                     Check our Pricing list to get happy ;)
                 </p>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left">
                 <h3>
                     <img class="svg features" src="./static/svg/professional.svg" /> <br>
                     Professional
@@ -182,7 +161,7 @@
                     deals are professionally closed with a contract.
                 </p>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-right">
                 <h3>
                     <img class="svg features" src="./static/svg/latest.svg" /> <br>
                     Latest
@@ -211,33 +190,106 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quasi, facere libero porro perspiciatis
-                numquam obcaecati praesentium, doloremque cupiditate nam explicabo labore. Neque necessitatibus nihil
-                nisi aspernatur! Laudantium, quod ullam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, perspiciatis enim! Molestiae nihil
-                delectus ipsa omnis vero eveniet sed modi, numquam excepturi aperiam perferendis tempore iusto et
-                adipisci voluptatum ad?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque molestias ipsum animi vel
-                eius, accusamus necessitatibus? Voluptates praesentium omnis est, quibusdam sequi veniam quia. Neque
-                saepe aspernatur accusamus nulla?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ea quod, quibusdam minus voluptatibus fuga
-                blanditiis excepturi. Laudantium voluptatibus magni, aut illo, delectus similique alias totam inventore
-                autem adipisci culpa!
+            <div class="col-sm-6" data-aos="fade-left">
+                <h2>Cost Effective</h2>
+                <h3>
+                    High quality outcome while investing minimum capital.
+                </h3>
             </div>
             <div class="col-sm-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quasi, facere libero porro perspiciatis
-                numquam obcaecati praesentium, doloremque cupiditate nam explicabo labore. Neque necessitatibus nihil
-                nisi aspernatur! Laudantium, quod ullam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, perspiciatis enim! Molestiae nihil
-                delectus ipsa omnis vero eveniet sed modi, numquam excepturi aperiam perferendis tempore iusto et
-                adipisci voluptatum ad?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque molestias ipsum animi vel
-                eius, accusamus necessitatibus? Voluptates praesentium omnis est, quibusdam sequi veniam quia. Neque
-                saepe aspernatur accusamus nulla?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ea quod, quibusdam minus voluptatibus fuga
-                blanditiis excepturi. Laudantium voluptatibus magni, aut illo, delectus similique alias totam inventore
-                autem adipisci culpa!
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6" data-aos="fade-right">
+                <h2>Wider Reach</h2>
+                <h3>
+                    Reach a much wider audience in this world of digitalization.
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" data-aos="fade-left">
+                <h2>Brand Creation</h2>
+                <h3>
+                    A Website marks a reputable and established brand.
+                </h3>
+            </div>
+            <div class="col-sm-6">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6" data-aos="fade-right">
+                <h2>24/7 Online Presence</h2>
+                <h3>
+                    It is becoming easier and easier to find a brand online. You are missing out if you don't have a
+                    website.
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" data-aos="fade-left">
+                <h2>Consumer Convenience</h2>
+                <h3>
+                    Looking up something online is the most convenient way to do things nowadays. 83% of consumers say
+                    that convenience when shopping is more important now than it
+                    was five years ago.
+                </h3>
+            </div>
+            <div class="col-sm-6">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6" data-aos="fade-right">
+                <h2>Increased Sales</h2>
+                <h3>
+                    Haha Description goes brrrrrrrrrrrrr
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" data-aos="fade-left">
+                <h2>Customer Rapport</h2>
+                <h3>
+                    Haha Description goes brrrrrrrrrrrrr
+                </h3>
+            </div>
+            <div class="col-sm-6">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6" data-aos="fade-right">
+                <h2>Competetive Oppurtunity</h2>
+                <h3>
+                    Haha Description goes brrrrrrrrrrrrr
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6" data-aos="fade-left">
+                <h2>Build Customer Base</h2>
+                <h3>
+                    Haha Description goes brrrrrrrrrrrrr
+                </h3>
+            </div>
+            <div class="col-sm-6">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6" data-aos="fade-right">
+                <h2>Targeted Marketing</h2>
+                <h3>
+                    Haha Description goes brrrrrrrrrrrrr
+                </h3>
             </div>
         </div>
     </div>
@@ -253,7 +305,7 @@
         <!-- Flex Card Row -->
         <div class="pricerow">
             <!-- Cards -->
-            <div class="card">
+            <div class="card" data-aos="zoom-in-up">
                 <h2>
                     Basic
                 </h2>
@@ -272,13 +324,13 @@
                         <li>Modern</li>
                     </ul>
                 </div>
-                <a href="#">
+                <a href="#table">
                     <button type="button" class="btn btn-default pricebutton">
                         Select
                     </button>
                 </a>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in-down">
                 <h2>
                     Standard
                 </h2>
@@ -299,13 +351,13 @@
                         <li>1 Month's Maintenance</li>
                     </ul>
                 </div>
-                <a href="#">
+                <a href="#table">
                     <button type="button" class="btn btn-default pricebutton">
                         Select
                     </button>
                 </a>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in-up">
                 <h2>
                     Advanced
                 </h2>
@@ -325,7 +377,7 @@
                         <li>3 Months' Maintenance</li>
                     </ul>
                 </div>
-                <a href="#">
+                <a href="#table">
                     <button type="button" class="btn btn-default pricebutton">
                         Select
                     </button>
@@ -336,7 +388,7 @@
     </div>
 
     <!-- Table Section -->
-    <div class="container center">
+    <div class="container center" id="table">
         <!-- Table Heading -->
         <h2 class="head">
             Plan Details
@@ -349,79 +401,79 @@
         <div style="overflow-x: auto;">
             <!-- Table starts -->
             <table class="packages" cellspacing="0" cellpadding="0">
-                <tr class="thead" align="center">
+                <tr class="thead" align="center" data-aos="flip-up">
                     <td>Package Includes:</td>
                     <td>Basic Plan</td>
                     <td>Standard Plan</td>
                     <td>Advanced Plan</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-down">
                     <td>HTML + CSS</td>
                     <td>✔</td>
                     <td>✔</td>
                     <td>✔</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-up">
                     <td>JavaScript</td>
                     <td>✘</td>
                     <td>✔</td>
                     <td>✔</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-down">
                     <td>High Quality SVGs</td>
                     <td>✔</td>
                     <td>✔</td>
                     <td>✔</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-up">
                     <td>Responsive Design</td>
                     <td>✔</td>
                     <td>✔</td>
                     <td>✔</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-down">
                     <td>Modern UI/UX</td>
                     <td>✔</td>
                     <td>✔</td>
                     <td>✔</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-up">
                     <td>Social Media Integration</td>
                     <td>✘</td>
                     <td>✔</td>
                     <td>✔</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-down">
                     <td>SEO Meta Tags</td>
                     <td>✘</td>
                     <td>✔</td>
                     <td>✔</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-up">
                     <td>Icons + Other CDNs</td>
                     <td>✘</td>
                     <td>✔</td>
                     <td>✔</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-down">
                     <td>Fluid Animations</td>
                     <td>✘</td>
                     <td>✘</td>
                     <td>✔</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-up">
                     <td>Assurè Watermark</td>
                     <td>✔</td>
                     <td>✔</td>
                     <td>✘</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-down">
                     <td>Private Code</td>
                     <td>✘</td>
                     <td>✘</td>
                     <td>✔</td>
                 </tr>
-                <tr class="trow" align="center">
+                <tr class="trow" align="center" data-aos="flip-up">
                     <td>Maintenance Support</td>
                     <td>✘</td>
                     <td>1 Month</td>
@@ -444,7 +496,7 @@
             </h2>
             <!-- Row 1 -->
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4" data-aos="zoom-in">
                     <a href="https://ashmitsinghk.github.io/" target="_blank">
                         <div class="workcard">
                             <img src="./static/img/work1.png" alt="" class="workimg">
@@ -454,7 +506,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4" data-aos="zoom-in">
                     <a href="https://sunflowermelodies.github.io/" target="_blank">
                         <div class="workcard">
                             <img src="./static/img/work2.png" alt="" class="workimg">
@@ -464,7 +516,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4" data-aos="zoom-in">
                     <a href="" target="_blank">
                         <div class="workcard">
                             <img src="./static/img/work3.png" alt="" class="workimg">
@@ -484,18 +536,19 @@
         </h2>
         <div class="row">
             <div class="col-sm-6">
-                <form class="kwes-form whitecard" action="https://kwes.io/api/foreign/forms/n0BfsTdsj0gV7OqgH5Rk">
+                <form class="kwes-form whitecard" action="https://kwes.io/api/foreign/forms/n0BfsTdsj0gV7OqgH5Rk"
+                    data-aos="fade-right">
                     <label for="name">Your Name</label><br>
                     <input type="text" name="name" rules="required|max:255"><br><br>
                     <label for="name">Your Email Address</label><br>
-                    <input type="text" name="email" rules="required"><br><br>
+                    <input type="text" name="email" rules="email|required"><br><br>
                     <label for="name">Your Message</label><br>
                     <textarea id="msg" type="text" name="message" rules="required"></textarea><br>
                     <button class="button" type="submit">Submit</button>
                 </form>
             </div>
             <div class="col-sm-6">
-                <div class="whitecard">
+                <div class="whitecard" data-aos="fade-left">
                     <h3>
                         Reach us on:
                     </h3>
@@ -521,7 +574,7 @@
                         </a>
                     </h4>
                 </div>
-                <div class="whitecard">
+                <div class="whitecard" data-aos="fade-left">
                     <h3>
                         Location:
                     </h3>
@@ -612,6 +665,10 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <script src="https://kwes.io/v2/kwes-script.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./app.js"></script>
 </body>
 
