@@ -151,10 +151,6 @@ a:link {
   font-size: 20px;
 }
 
-.pagelink {
-  padding-top: 100px;
-}
-
 .button {
   background-color: #6C63FF;
   padding: 10px 30px;
@@ -587,9 +583,6 @@ textarea {
   }
   .links div {
     opacity: 0;
-  }
-  .holder {
-    margin-top: 45px;
   }
   .row {
     flex-direction: column;
